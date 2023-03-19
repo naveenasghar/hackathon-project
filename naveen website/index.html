@@ -1,0 +1,348 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <title>Bootstrap demo</title>
+ <style>
+  .content {
+   text-align: center;
+   align-content: center;
+   justify-content: center;
+
+
+  }
+
+  .two btn btn-secondary btn-sm {
+   margin-left: 40%;
+  }
+
+  .content,
+  .two btn btn-secondary btn-sm {
+   height: 90vh;
+   width: 100vw;
+   background-image: url(./hero_1.jpg.webp);
+   background-repeat: no-repeat;
+   background-size: cover;
+   z-index: 0;
+  }
+
+  h1 {
+   padding-top: 10%;
+  }
+
+  .card {
+   display:inline-block;
+   margin-top: 10px;
+   padding-left: 10%;
+   width: 20vh;
+   /*z-index: 0;*/
+   height: 50px;
+   display: flex;
+   
+  }
+  .works h1{
+   align-items: center;
+   align-content: center;
+   justify-content: center;
+   padding-left: 40%;
+
+  }
+  .works p{
+   align-items: center;
+   align-content: center;
+   justify-content: center;
+   padding-left: 40%;
+   padding-right: 30%;
+
+  }
+  .pics{
+   margin: 10px;
+   width: 20px;
+   display: flex;
+
+
+  }
+
+  
+ </style>
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+</head>
+
+<body>
+ <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+   <a class="navbar-brand" href="#">create.</a>
+   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+   </button>
+   <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+     <li class="nav-item">
+      <a class="nav-link active" aria-current="page" href="#">HOME</a>
+     </li>
+     <li class="nav-item">
+      <a class="nav-link" href="#">WORK</a>
+     </li>
+     <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+       SERVICES
+      </a>
+     <li class="nav-item">
+      <a class="nav-link active" aria-current="page" href="#">BLOG</a>
+     </li>
+     <li class="nav-item">
+      <a class="nav-link active" aria-current="page" href="#">CONTACT</a>
+     </li>
+     <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="#">SPECIALITIES</a></li>
+      <li><a class="dropdown-item" href="#">OUR TEAM</a></li>
+      <li>
+       <hr class="dropdown-divider">
+      </li>
+      <!--<li><a class="dropdown-item" href="#">Something else here</a></li>-->
+     </ul>
+     </li>
+     <!--<li class="nav-item">
+            <a class="nav-link disabled">Disabled</a>
+          </li>-->
+    </ul>
+    <!--<form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>-->
+   </div>
+  </div>
+ </nav>
+ <div class="content">
+  <div class="heading"></div>
+  <h1>we love to build web apps</h1>
+  <p>free web template by colour lib</p>
+
+  <button type="button" class="btn btn-dark">watch video</button>
+ </div>
+ <br>
+ <br>
+ <div class="card" style="width: 18rem;">
+  <h5 class="card-title">Innovate</h5>
+  <p class="card-text"><b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et praesentium eos nulla qui commodi
+    consectetur beatae fugiat. Veniam iste rerum perferendis.</b>
+   <br>
+   <br>
+   customer experience
+   <br>
+   product management
+   <br>
+   proof of concept
+  <div class="card" style="width: 18rem;">
+   <h5 class="card-title">Create</h5>
+   <p class="card-text"><b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et praesentium eos nulla qui commodi
+     consectetur beatae fugiat. Veniam iste rerum perferendis.</b>
+    <br>
+    <br>
+    web design
+    <br>
+    branding
+    <br>
+    web and app development
+   <div class="card" style="width: 18rem;">
+    <h5 class="card-title">scale</h5>
+    <p class="card-text"><b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et praesentium eos nulla qui
+      commodi consectetur beatae fugiat. Veniam iste rerum perferendis.</b>
+     <br>
+     <br>
+     social media
+     <br>
+     paid compaigans
+     <br>
+     marketing and seo
+   </div>
+
+   
+  </div>
+
+ </div>
+ <div class="works">
+  <h1>OUR WORKS</h1>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, itaque neque, delectus odio iure explicabo.</p>
+ </div>
+ <div class="pics">
+  <div class="pic 1">
+   <img src="./img_1.jpg.webp">
+  </div>
+  <div class="pic 2">
+   <img src="./img_2.jpg.webp">
+  </div>
+  <div class="pic 3">
+   <img src="./img_3.jpg.webp">
+  </div>
+
+
+ </div>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+<body>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
